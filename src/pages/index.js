@@ -35,7 +35,7 @@ export default function Home() {
           <navbar className="bg-white">
             <div className="navbar-l hidden lg:flex">
               <div>
-                <Image quality={100} src={hicon} />
+                <Image quality={100} alt="" src={hicon} />
               </div>
               <div className="flex gap-8">
                 <a className="nav-link">Contact Us</a>
@@ -48,10 +48,10 @@ export default function Home() {
             </div>
             <div className="navbar-s flex items-center justify-between lg:hidden">
               <div>
-                <Image quality={100} className="logoim" src={logo2} />
+                <Image quality={100} className="logoim" alt="" src={logo2} />
               </div>
               <div>
-                <Image quality={100} src={menu} />
+                <Image quality={100} alt="" src={menu} />
               </div>
             </div>
           </navbar>
@@ -73,7 +73,7 @@ export default function Home() {
               <img src="/head-body.png" />
             </div>
             <div className="block px-14 lg:hidden">
-              <Image quality={100} class="shaad" src={Dashboard} />
+              <Image quality={100} class="shaad" alt="" src={Dashboard} />
             </div>
           </div>
         </header>
@@ -95,8 +95,8 @@ export default function Home() {
                 sizes="100%"
                 quality={100}
                 class="tes"
-                src={card1}
                 alt=""
+                src={card1}
               />
               <h1>Best conversion rates</h1>
               <p>Our rates are as low as 1% for every transaction made.</p>
@@ -137,7 +137,7 @@ export default function Home() {
           <div class="bg-sere">
             <div class="bgsein">
               <div class="order-2 lg:order-1">
-                <Image quality={100} src={fricimg} />
+                <Image quality={100} alt="" src={fricimg} />
               </div>
               <div class="bgtext order-1 lg:order-2">
                 <h1>
@@ -156,7 +156,7 @@ export default function Home() {
           <div class="bg-sere bg2t">
             <div class="bgsein">
               <div class="order-2">
-                <Image quality={100} src={fricimg2} />
+                <Image quality={100} alt="" src={fricimg2} />
               </div>
               <div class="bgtext order-1">
                 <h1>
@@ -179,7 +179,7 @@ export default function Home() {
           </div>
           <div class="scont flex items-center justify-center">
             <div class="phone-img">
-              <Image quality={100} src={startImg} />
+              <Image quality={100} alt="" src={startImg} />
             </div>
             <div class="item-cont">
               <div id="item" class="flex gap-8">
@@ -237,12 +237,12 @@ export default function Home() {
           <div id="footer-large" class="hidden lg:block">
             <div class="footer-l">
               <div className="flex justify-between items-center">
-                <Image src={hicon} />
+                <Image alt="" src={hicon} />
                 <div class="socontt flex">
-                  <Image class="social" quality={100} src={Dribbble} />
-                  <Image class="social" quality={100} src={Instagram} />
-                  <Image class="social" quality={100} src={Twitter} />
-                  <Image class="social" quality={100} src={Youtube} />
+                  <Image class="social" quality={100} alt="" src={Dribbble} />
+                  <Image class="social" quality={100} alt="" src={Instagram} />
+                  <Image class="social" quality={100} alt="" src={Twitter} />
+                  <Image class="social" quality={100} alt="" src={Youtube} />
                 </div>
               </div>
               <div class="bel">
@@ -257,7 +257,7 @@ export default function Home() {
 
           <div id="footer-small" class="block lg:hidden">
             <div>
-              <Image quality={100} src={logo2} />
+              <Image quality={100} alt="" src={logo2} />
             </div>
             <div class="flex pl-1 ra1 gap-8 pt-8 pb-14">
               <p>Contact us</p>
@@ -265,10 +265,10 @@ export default function Home() {
               <p>Login</p>
             </div>
             <div class="flex pl-1 socontt pb-7">
-              <Image class="social" quality={100} src={Dribbble} />
-              <Image class="social" quality={100} src={Instagram} />
-              <Image class="social" quality={100} src={Twitter} />
-              <Image class="social" quality={100} src={Youtube} />
+              <Image class="social" quality={100} alt="" src={Dribbble} />
+              <Image class="social" quality={100} alt="" src={Instagram} />
+              <Image class="social" quality={100} alt="" src={Twitter} />
+              <Image class="social" quality={100} alt="" src={Youtube} />
             </div>
             <div class="bel pl-1 pb-28 flex flex-col">
               <p>© 2021 Croimo </p>
