@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from "next/Image";
+import Image from "next/image";
 import logo2 from "../../public/logo2.svg";
 import menu from "../../public/menu.svg";
 import Dashboard from "../../public/Dashboard.png";
