@@ -14,6 +14,7 @@ import Dribbble from "../../public/Dribbble.png";
 import Instagram from "../../public/Instagram.png";
 import Twitter from "../../public/Twitter.png";
 import Youtube from "../../public/Youtube.png";
+import headbody from "../../public/head-body.png";
 
 export default function Home() {
   return (
@@ -70,7 +71,7 @@ export default function Home() {
 
           <div className="imgery flex items-center justify-center">
             <div className="shad hidden lg:flex ">
-              <img src="/head-body.png" />
+              <Image quality={100} src={headbody} alt="" />
             </div>
             <div className="block px-14 lg:hidden">
               <Image quality={100} class="shaad" alt="" src={Dashboard} />
