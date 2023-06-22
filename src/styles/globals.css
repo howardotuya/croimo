@@ -190,6 +190,8 @@ main {
 
 .shaad {
   box-shadow: 0px 1.36px 23.7984px rgba(0, 0, 0, 0.14);
+  width: 805px;
+  height: 100%;
 }
 
 .fricimg {
@@ -251,7 +253,8 @@ main {
 }
 
 .phone-img {
-  width: 209px;
+  width: 208.15px;
+  height: 420px;
   filter: drop-shadow(-36.9581px 36.9581px 35.5088px rgba(0, 0, 0, 0.060745));
 }
 
@@ -385,6 +388,11 @@ main {
   height: 32px;
 }
 
+.shad {
+  box-shadow: 0px 4.08px 71.3936px 0px #00000024;
+  width: 268.57px;
+  height: 205px;
+}
 .ra1 > p {
   font-weight: 500;
   font-size: 16px;
@@ -395,6 +403,7 @@ main {
 #footer-small {
     padding-left: 16px;
 }
+
 
 @media only screen and (min-width: 765px) and (max-width: 1024px) {
   .blur {
@@ -456,7 +465,8 @@ main {
   }
 
   .phone-img {
-    width: 326px;
+    width: 326.1px;
+    height: 658px;
     filter: drop-shadow(-36.9581px 36.9581px 35.5088px rgba(0, 0, 0, 0.060745));
   }
 
@@ -595,9 +605,6 @@ main {
     background-color: #f9f9f9;
   }
 
-  .shad {
-    box-shadow: 0px 4.08px 71.3936px 0px #00000024;
-  }
 
   .grey {
     padding-top: 191px;
@@ -783,4 +790,13 @@ main {
   .shad {
     box-shadow: 0px 4.08px 71.3936px 0px #00000024;
   }
+}
+
+@media only screen and (min-width: 1750px) {
+  
+.setM {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 }

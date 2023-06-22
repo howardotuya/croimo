@@ -31,12 +31,12 @@ export default function Home() {
       <div>
         <div className="blur"></div>
       </div>
-      <main>
+      <main class="setM">
         <header className=" bg-transparent">
           <navbar className="bg-white">
             <div className="navbar-l hidden lg:flex">
               <div>
-                <Image quality={100} alt="" src={hicon} />
+                <Image class="h-7 lg:h-9 w-full" quality={100} alt="" src={hicon} />
               </div>
               <div className="flex gap-8">
                 <a className="nav-link">Contact Us</a>
@@ -49,10 +49,10 @@ export default function Home() {
             </div>
             <div className="navbar-s flex items-center justify-between lg:hidden">
               <div>
-                <Image quality={100} className="logoim" alt="" src={logo2} />
+                <Image quality={100} className="logoim" alt="logo" src={logo2} />
               </div>
               <div>
-                <Image quality={100} alt="" src={menu} />
+                <Image quality={100} alt="menu" class="h-5 w-6" src={menu} />
               </div>
             </div>
           </navbar>
@@ -70,11 +70,11 @@ export default function Home() {
           </div>
 
           <div className="imgery flex items-center justify-center">
-            <div className="shad hidden lg:flex ">
-              <Image quality={100} src={headbody} alt="" />
+            <div className="shaad hidden lg:flex ">
+              <Image quality={100} src={Dashboard} alt="" />
             </div>
             <div className="block px-14 lg:hidden">
-              <Image quality={100} class="shaad" alt="" src={Dashboard} />
+              <Image quality={100} class="shad" alt="" src={headbody} />
             </div>
           </div>
         </header>
@@ -179,8 +179,8 @@ export default function Home() {
             <h1 class="starthead">Get Started in 3 easy steps</h1>
           </div>
           <div class="scont flex items-center justify-center">
-            <div class="phone-img">
-              <Image quality={100} alt="" src={startImg} />
+            <div>
+              <Image class="phone-img" quality={100} alt="" src={startImg} />
             </div>
             <div class="item-cont">
               <div id="item" class="flex gap-8">
@@ -238,7 +238,7 @@ export default function Home() {
           <div id="footer-large" class="hidden lg:block">
             <div class="footer-l">
               <div className="flex justify-between items-center">
-                <Image alt="" src={hicon} />
+                <Image alt="" class=" h-9 w-auto" src={hicon} />
                 <div class="socontt flex">
                   <Image class="social" quality={100} alt="" src={Dribbble} />
                   <Image class="social" quality={100} alt="" src={Instagram} />
@@ -258,7 +258,7 @@ export default function Home() {
 
           <div id="footer-small" class="block lg:hidden">
             <div>
-              <Image quality={100} alt="" src={logo2} />
+              <Image quality={100} class="logoim" alt="" src={logo2} />
             </div>
             <div class="flex pl-1 ra1 gap-8 pt-8 pb-14">
               <p>Contact us</p>
